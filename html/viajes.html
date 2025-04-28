@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>viajes</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <img src="../img/portada.jpg" alt="" />
+      </div>
+      <div>
+        <h1 class="h1-viajes">Bicicleteria Nahuel</h1>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="repuestos.html">Repuestos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="informacion.html">Informacion</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="viajes">
+        <h1>viajes</h1>
+
+        <div class="img-viajes">
+          <div>
+            <h2>viajes lejos</h2>
+            <img
+              class="roll-in-blurred-left"
+              src="../img/viajes_lejos.jpeg"
+              alt=""
+            />
+            <input type="checkbox" />
+          </div>
+
+          <div>
+            <h2>viajes cerca</h2>
+            <img
+              class="roll-in-blurred-right"
+              src="../img/viajes_cerca.jpeg"
+              alt=""
+            />
+            <input type="checkbox" />
+          </div>
+        </div>
+
+        <div class="viajes-seleccionar">
+          <div class="viajes-seleccionar1">
+            <label for="reglas">acepto las reglas</label>
+            <input type="checkbox" name="" id="reglas" />
+          </div>
+
+          <div class="viajes-seleccionar2">
+            <label for="pais">paises:</label>
+            <select name="" id="">
+              <option value="">Argentina</option>
+              <option value="">Brasil</option>
+              <option value="">Uruguay</option>
+              <option value="">Peru</option>
+            </select>
+            <input type="submit" value="enviar" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a
+        href="https://wa.me/tu_numero"
+        class="wpp"
+        target="_blank"
+        aria-label="Chat en WhatsApp"
+      >
+        <img src="../img/icono_whatsapp.png" alt="Icono de WhatsApp" />
+      </a>
+
+      <div class="contenido">
+        <form action="/submit" method="post">
+          <label for="mensaje">Comentario</label>
+          <textarea
+            name="comentario"
+            id="mensaje"
+            placeholder="Escribe tu comentario..."
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+
+        <a href="https://google.com" target="_blank" rel="noopener"
+          >Entrevistas</a
+        >
+      </div>
+
+      <span>© 2025 - Todos los Derechos Reservados</span>
+    </footer>
+  </body>
+</html>
